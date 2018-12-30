@@ -1,0 +1,77 @@
+body {
+  margin-top: 0;
+  background: #e8f9f9;
+}
+
+.test-center {
+  text-align: center;
+}
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+table tr {
+  border: 5px ridge #b7fff5;
+  height: 40px;
+}
+tr th {
+  padding-left: 10px;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 50px 50px 50px 50px;
+  background: rgb(84, 170, 185);
+  cursor: pointer;
+  color: white;
+  border: 1px solid #407b8b;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+button:active {
+  background: rgb(65, 152, 211);
+  box-shadow: inset 0px 2px 0px 0px rgba(71,233,254,0.1);
+  border: 1px solid #03507e;
+}
+button:focus {
+  outline: 0;
+}
+
+#getr {
+  margin-top: -35px;
+  margin-right: 50px;
+  float: right;
+}
+hr {
+  height:8px;
+  border:none;
+  border-top:5px groove skyblue;
+}
+
+#tips {
+  margin: 0 70px;
+  border-bottom:1px dotted skyblue;
+}
+
+#address {
+  border-top:1px dotted skyblue;
+  border-bottom:1px dotted skyblue;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #dafaf6;
+}
+
+form {
+  margin: 0px 10px;
+  width: 200px;
+}
+
+select {
+  color: aquamarine;
+}
+
+#submit {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -55px;
+}
