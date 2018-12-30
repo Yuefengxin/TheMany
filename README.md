@@ -1,0 +1,2 @@
+# TheMany
+A truffle DAPP
